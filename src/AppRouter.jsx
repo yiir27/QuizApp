@@ -9,7 +9,7 @@ export const AppRouter = () => {
         <Navbar />
         <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/category/:cotegory' element={<CategoryPage />} />
+            <Route path='/category/:category' element={<CategoryPage />} />
         </Routes>
     </>
   )

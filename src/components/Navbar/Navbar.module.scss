@@ -10,9 +10,10 @@
     color: #ffffff; /* Tailwind の text-white に対応 */
     font-size: 1.5rem; /* Tailwind の text-2xl に対応 */
     font-weight: bold; /* Tailwind の font-bold に対応 */
-    /* ホバー時のスタイル */
+    }
+    
+.hover\:scale-110:hover {
     transform: scale(1.1); /* Tailwind の hover:scale-110 に対応 */
     transition-duration: 500ms; /* Tailwind の duration-500 に対応 */
-    }
-
+}
 
